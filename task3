@@ -1,0 +1,8 @@
+//esap 1
+<?php 
+define("PI", 3.14159);
+function calculateCircleArea($radius) {
+    
+    return PI*pow($radius, 2);
+}
+echo calculateCircleArea(7);
